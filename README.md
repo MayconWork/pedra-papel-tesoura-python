@@ -31,10 +31,11 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento e executar o
 
 2. **(Opcional) Crie um ambiente virtual:**
     É uma boa prática criar um ambiente virtual para gerenciar as dependências do projeto.
+   ```
     python -m venv venv
     source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
-
-3. **Execute o Jogo:**
+   ```
+4. **Execute o Jogo:**
     python jogo.py
 
 ## ⚙️ Regras do Jogo
