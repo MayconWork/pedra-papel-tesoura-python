@@ -30,14 +30,19 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento e executar o
    cd pedra-papel-tesoura-python
 
 2. **(Opcional) Crie um ambiente virtual:**
+   
     É uma boa prática criar um ambiente virtual para gerenciar as dependências do projeto.
+   
+   ```
     python -m venv venv
     source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+   ```
+4. **Execute o Jogo:**
 
-3. **Execute o Jogo:**
     python jogo.py
 
 ## ⚙️ Regras do Jogo
+
 O jogo "Pedra, Papel e Tesoura" é jogado entre um jogador humano e o computador. As regras são simples:
 
     * Pedra vence Tesoura.
@@ -66,6 +71,7 @@ Aqui está a tabela verdade para o jogo, mostrando todas as combinações possí
     "On Working"
 
 ## 🔩 Analise os testes de ponta a ponta
+
 Para garantir que o jogo funcione conforme o esperado, você pode adicionar testes que verifiquem as regras do jogo, como:
 
 Verificar se as escolhas do jogador e do computador são validadas corretamente.
